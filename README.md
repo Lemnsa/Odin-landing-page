@@ -15,4 +15,4 @@ Landing page exercise from the Odin Learning community!
 - Border: space between the margin and padding of an item
 
 #### Images Used source
-<a href="https://www.pexels.com/">Pexels</a>
+<a href="https://www.pexels.com/" target="_blank" rel="noopener noreferrer">Pexels</a>
