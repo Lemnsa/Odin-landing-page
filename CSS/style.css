@@ -4,6 +4,7 @@ body{
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     display: flex;
     flex-direction: column;
+    flex: 1;
     padding: 0;
     margin: 0;
 }
@@ -52,15 +53,16 @@ body{
     flex: 1;
     margin-top: 100px;
     gap: 2em;
+    flex-wrap: wrap;
 }
 
 .item{
     flex-basis: 400px;
 }
 
-.item img {
+/* .item img {
     width: 500px;
-}
+} */
 
 .item p{
     font-size: 18px;
@@ -133,4 +135,36 @@ body{
     display: flex;
     justify-content: flex-end;
     padding: 20px;
+}
+
+.sign-up-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #f9faf8;
+    padding: 100px 40px;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #3882f6;
+    padding: 40px 100px;
+    gap: 200px;
+    border-radius: 12px;
+    margin-right: auto;
+}
+
+.text p , .text h3{
+    margin: 0;
+}
+
+.content button {
+    padding: 10px 40px;
+    border: 2px solid #f9faf8;
+    color: #f9faf8;
+    font-size: 18px;
+    background: transparent;
+    border-radius: 5px;
 }
