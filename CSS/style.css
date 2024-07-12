@@ -153,7 +153,6 @@ body{
     padding: 40px 100px;
     gap: 200px;
     border-radius: 12px;
-    margin-right: auto;
 }
 
 .text p , .text h3{
@@ -167,4 +166,9 @@ body{
     font-size: 18px;
     background: transparent;
     border-radius: 5px;
+}
+
+.footer {
+    text-align: center;
+    color: #f9faf8;
 }
